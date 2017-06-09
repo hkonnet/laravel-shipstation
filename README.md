@@ -1,11 +1,11 @@
 LaravelShipStation
 ===============
-
+[![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Latest Version on Packagist][packagist-downloads]][link-packagist]
 [![Build Status](https://travis-ci.org/joecampo/laravel-shipstation.svg?branch=master)](https://travis-ci.org/joecampo/laravel-shipstation)
 
-This is a simple PHP API wrapper for [ShipStation](http://shipstation.com) built for Laravel 4.\*.
+This is a simple PHP API wrapper for [ShipStation](http://shipstation.com) built for Laravel 4|5.
 
 Installation
 ------------
@@ -13,7 +13,7 @@ This package can be installed via [Composer](http://getcomposer.org) by requirin
 ```json
 {
     "require": {
-        "hkonnet/laravel-shipstation": "1.0.0-L4"
+        "hkonnet/laravel-shipstation": "4.2.1"
     }
 }
 ```
