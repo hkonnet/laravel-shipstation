@@ -5,7 +5,7 @@ LaravelShipStation
 [![Latest Version on Packagist][packagist-downloads]][link-packagist]
 [![Build Status](https://travis-ci.org/joecampo/laravel-shipstation.svg?branch=master)](https://travis-ci.org/joecampo/laravel-shipstation)
 
-This is a simple PHP API wrapper for [ShipStation](http://shipstation.com) built for Laravel 5.\*.
+This is a simple PHP API wrapper for [ShipStation](http://shipstation.com) built for Laravel 4.\*.
 
 Installation
 ------------
@@ -13,7 +13,7 @@ This package can be installed via [Composer](http://getcomposer.org) by requirin
 ```json
 {
     "require": {
-        "campo/laravel-shipstation": "~4.0"
+        "hkonnet/laravel-shipstation": "1.0.0-L4"
     }
 }
 ```
@@ -24,18 +24,14 @@ composer update
 ```
 
 Second, add the LaravelShipStation service provider to your providers array located in ```config/app.php```
-```php
-LaravelShipStation\ShipStationServiceProvider::class
-```
 
-for Laravl 5.1 and below use
 ```php
-'Hkonnet\LaravelShipStation\ShipStationServiceProvider'
+'Hkonnet\LaravelShipStation\LaravelShipStationServiceProvider'
 ```
 
 After installing via composer you will need to publish the configuration:
 ```php
-php artisan vendor:publish --provider="Hkonnet\LaravelShipStation\ShipStationServiceProvider"
+php artisan config:publish hkonnet/laravel-shipstation
 ```
 This will create the configuration file for your API key and API secret key at ```config/shipstation.php```. You will need to obtain your API & Secret key from ShipStation: [How can I get access to ShipStation's API?](https://help.shipstation.com/hc/en-us/articles/206638917-How-can-I-get-access-to-ShipStation-s-API-)
 ## Dependencies

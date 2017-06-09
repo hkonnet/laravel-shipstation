@@ -42,8 +42,8 @@ class ShipStation extends Client
      */
     public function __construct()
     {
-        $apiKey  = config('shipstation.apiKey');
-        $apiSecret = config('shipstation.apiSecret');
+        $apiKey  = Config::get('shipstation::apiKey','');
+        $apiSecret = Config::get('shipstation::apiSecret','');
 
         if (!isset($apiKey, $apiSecret)) {
             throw new \Exception('Your API key and/or private key are not set. Did you run artisan vendor:publish?');
