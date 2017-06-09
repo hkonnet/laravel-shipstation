@@ -7,13 +7,15 @@ LaravelShipStation
 
 This is a simple PHP API wrapper for [ShipStation](http://shipstation.com) built for Laravel 4|5.
 
+For larave 5.* Click [here](https://github.com/hkonnet/laravel-shipstation)
+
 Installation
 ------------
 This package can be installed via [Composer](http://getcomposer.org) by requiring the ```campo/laravel-shipstation``` package in your project's ```composer.json```
 ```json
 {
     "require": {
-        "hkonnet/laravel-shipstation": "4.2.1"
+        "hkonnet/laravel-shipstation": "4.1.2"
     }
 }
 ```
