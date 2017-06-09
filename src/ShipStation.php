@@ -3,6 +3,7 @@ namespace Hkonnet\LaravelShipStation;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
+use Illuminate\Support\Facades\Config;
 
 class ShipStation extends Client
 {
