@@ -36,8 +36,6 @@ class ShipStation extends Client
     /**
      * ShipStation constructor.
      *
-     * @param  string  $apiKey
-     * @param  string  $apiSecret
      * @throws \Exception
      */
     public function __construct()
