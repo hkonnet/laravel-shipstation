@@ -15,7 +15,7 @@ This package can be installed via [Composer](http://getcomposer.org) by requirin
 ```json
 {
     "require": {
-        "hkonnet/laravel-shipstation": "4.1.2"
+        "hkonnet/laravel-shipstation": "4.1.3"
     }
 }
 ```
