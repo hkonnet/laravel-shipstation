@@ -67,7 +67,7 @@ class ShipStation extends Client
     {
         $response = $this->request('GET', "{$this->endpoint}{$endpoint}", ['query' => $options]);
 
-        $this->sleepIfRateLimited($response);
+//        $this->sleepIfRateLimited($response);
 
         return json_decode($response->getBody()->getContents());
     }
